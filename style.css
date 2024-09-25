@@ -162,6 +162,7 @@ body {
     font-size: 2rem;
     background: #e5e7eb;
 
+    margin-block: 2rem;
     padding-block: 2rem;
 }
 
@@ -185,8 +186,11 @@ body {
 .section-sign-up {
     justify-content: center;
     align-items: center;
+
     color: white;
-}
+    font-size: 1.2rem;
+
+    padding-block: 2rem;}
 
 .wrapper {
     align-items: center;
@@ -199,6 +203,7 @@ body {
     margin-block: 2rem;
     padding: 4rem;
 }
+
 .text-container,
 .btn-container {
     padding-inline: 2rem;
