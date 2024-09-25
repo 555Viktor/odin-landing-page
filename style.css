@@ -24,6 +24,7 @@ body {
 .header-main
 .section-imgs,
 .section-quotes {
+    min-height: auto;
     min-width: 100%;
  }
 
@@ -32,7 +33,8 @@ body {
 .container-imgs,
 .section-quotes,
 .author,
-.section-sign-up {
+.section-sign-up,
+.wrapper {
     display: flex;
 }
 
@@ -121,7 +123,7 @@ body {
     background: #3881f6af;
 }
 
-/* Content - images section */
+/* Content main */
 .section-imgs,
 .container-imgs,
 .section-quotes {
@@ -129,6 +131,7 @@ body {
     align-items: center;
 }
 
+/* Content - images section */
 .section-imgs {
     margin-block: 2rem;
     padding-block: 2rem;
@@ -159,7 +162,6 @@ body {
     font-size: 2rem;
     background: #e5e7eb;
 
-    margin-block: 2rem;
     padding-block: 2rem;
 }
 
@@ -176,4 +178,41 @@ body {
 .author {
     justify-content: end;
     margin-block: 1rem;
+}
+
+/* Content - sing up section */
+
+.section-sign-up {
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.wrapper {
+    align-items: center;
+
+    border: none;
+
+    background: #3882f6;
+
+    border-radius: 16px;
+    margin-block: 2rem;
+    padding: 4rem;
+}
+.text-container,
+.btn-container {
+    padding-inline: 2rem;
+}
+
+.btn-container button {
+    font-weight: bold;
+    color: inherit;
+    
+    background: none;
+
+    border-radius: 8px;
+    border: 2px solid white;
+
+    padding-block: 0.5rem;
+    padding-inline: 1rem;
 }
