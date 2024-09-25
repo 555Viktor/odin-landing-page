@@ -23,8 +23,8 @@ body {
 .header-nav,
 .header-main
 .section-imgs,
-.section-quotes {
-    min-height: auto;
+.section-quotes,
+.footer {
     min-width: 100%;
  }
 
@@ -220,4 +220,17 @@ body {
 
     padding-block: 0.5rem;
     padding-inline: 1rem;
+
+    cursor: pointer;
+}
+
+/* Footer section */
+
+.footer {
+    padding-block: 2rem;
+    background: #1F2937;
+
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
 }
