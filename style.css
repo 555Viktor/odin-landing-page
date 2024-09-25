@@ -25,13 +25,13 @@ body {
 .section-imgs,
 .section-quotes {
     min-width: 100%;
-    min-height: auto;
  }
 
 .header-nav,
 .header-main,
 .container-imgs,
 .section-quotes,
+.author,
 .section-sign-up {
     display: flex;
 }
@@ -42,6 +42,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 
 /* Header and Navbar section */
 
@@ -79,7 +80,7 @@ body {
     align-items: center;
 
     margin-block: 2rem;
-    padding: 2rem;
+    padding: 4rem;
 }
 
 .main-left,
@@ -155,10 +156,24 @@ body {
 /* Content - quotes section */
 
 .section-quotes {
+    font-size: 2rem;
     background: #e5e7eb;
+
+    margin-block: 2rem;
+    padding-block: 2rem;
 }
 
 .quote-wrapper {
     width: 50%;
     margin-block: 2rem;
+}
+
+.quote {
+    font-style: italic;
+    text-indent: 1rem;
+}
+
+.author {
+    justify-content: end;
+    margin-block: 1rem;
 }
