@@ -17,21 +17,41 @@ body {
     flex-direction: column;
 }
 
+/* Basic section sizing + Shared CSS properties */
+
+.header,
+.header-nav,
+.header-main
+.section-imgs,
+.section-quotes {
+    min-width: 100%;
+    min-height: auto;
+ }
+
+.header-nav,
+.header-main,
+.container-imgs,
+.section-quotes,
+.section-sign-up {
+    display: flex;
+}
+
+.header,
+.content,
+.section-imgs{
+    display: flex;
+    flex-direction: column;
+}
+
 /* Header and Navbar section */
 
 .header,
 .header-nav,
 .header-main {
-    display: flex;
     justify-content: space-evenly;
 }
 
 .header {
-    flex-direction: column;
-
-    min-height: auto;
-    width: 100%;
-
     background: #1F2937;
     color: white;
 }
@@ -101,28 +121,14 @@ body {
 }
 
 /* Content - images section */
-.container-imgs,
-.section-quotes,
-.section-sign-up {
-    display: flex;
-}
-
-.content,
-.section-imgs{
-    display: flex;
-    flex-direction: column;
-}
-
 .section-imgs,
-.container-imgs {
+.container-imgs,
+.section-quotes {
     justify-content: center;
     align-items: center;
 }
 
 .section-imgs {
-    min-height: auto;
-    width: 100%;
-
     margin-block: 2rem;
     padding-block: 2rem;
     padding-inline: 4rem;
@@ -144,4 +150,15 @@ body {
     border: 4px #3882F6 solid;
 
     margin-bottom: 1rem;
+}
+
+/* Content - quotes section */
+
+.section-quotes {
+    background: #e5e7eb;
+}
+
+.quote-wrapper {
+    width: 50%;
+    margin-block: 2rem;
 }
